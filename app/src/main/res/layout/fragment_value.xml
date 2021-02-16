@@ -7,11 +7,17 @@
     android:background="@color/color_b">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:id="@+id/fragmentValue"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/text_fragment_value"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/fragmentValueText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_fragment_value"
+            android:gravity="center"/>
+    </LinearLayout>
+
 
 </FrameLayout>

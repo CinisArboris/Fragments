@@ -3,6 +3,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_activity_nav">Hallo : nav</string>
+    <string name="button_fragment_key">BYFROST</string>
+    <string name="edit_fragment_key">Send Data !!!</string>
     <string name="text_fragment_key">Hallo : key</string>
     <string name="text_fragment_value">Hallo : value</string>
 </resources>
