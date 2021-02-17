@@ -6,22 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Nav"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <fragment
         android:name="com.example.fragments.Key"
         android:id="@+id/fragmentKey"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
         tools:layout="@layout/fragment_key"/>
 
     <fragment
         android:name="com.example.fragments.Value"
         android:id="@+id/fragmentValue"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
         tools:layout="@layout/fragment_value"/>
 
 
